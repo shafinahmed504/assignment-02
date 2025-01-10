@@ -1,0 +1,58 @@
+.inter-font {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+  }
+
+body{
+    background: black;
+}
+
+/* FONT STYLES */
+#nav-title{
+    color: rgb(230, 83, 60);
+    font-weight: 800;
+    font-size: 2.25rem;
+}
+#nav-button{
+    color: White;
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: rgb(230, 83, 60);
+    width: 5.75rem;
+    height: 2.735rem;
+    border-radius: 2.785rem;
+
+}
+li{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    margin-left: 2.9375rem;
+    
+}
+
+/* Flexing of navbar  and nav items */
+#navbar{
+    max-width: 66.25rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 11.875rem;
+    margin-right: 11.875rem;
+    margin: 0 auto;
+
+}
+#nav-button-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 0.0635rem rgba(255, 255, 255, 0.2);
+    padding: 0;
+    border-radius: 2.4375rem;
+    height: 2.875rem;
+    margin-top: 26px;
+    
+}
