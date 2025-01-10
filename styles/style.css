@@ -15,7 +15,7 @@ body{
     font-weight: 800;
     font-size: 2.25rem;
 }
-#nav-button{
+.nav-button{
     color: White;
     font-size: 1.125rem;
     font-weight: 600;
@@ -54,5 +54,83 @@ li{
     border-radius: 2.4375rem;
     height: 2.875rem;
     margin-top: 26px;
+    
+}
+/* Navbar comppleted */
+
+/* Main starts */
+
+#Get-body-title{
+    color: white;
+    font-weight: 800;
+    font-size: 4.875rem;
+}
+#Get-body-content{
+    max-width: 575px;
+}
+.description{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 1rem;
+}
+#btn-1{
+    width: 250px;
+}
+#btn-2{
+    width: 250px;
+    background-color: black;
+    border: 1px solid white;
+}
+.get-btn-1{
+    background-color:  rgba(48, 48, 48, 0.54); width: 200px;height: 80px; display: flex; align-items: center; border-radius: 12px; 
+    margin-top: -150px;
+}
+#get-btn-2{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: -400px;
+}
+#two-buttons{
+    display: flex;
+    gap: 5px;
+}
+#Get-body-section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 11.875rem;
+    margin-right: 11.875rem;
+    background: linear-gradient(90deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.1) 100%);
+}
+
+@media screen and (max-width:576px) {
+    #Get-body-section{
+        width: 490px;
+        
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    #nav-button-links{
+        visibility: hidden;
+        
+    }
+    
+    
+    #Get-body-buttons{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    #Get-body-photo{
+        margin-left: 60px;
+    }
+    .get-btn-1{
+        margin-top: -200px;
+    }
+    #get-btn-2{
+        margin-top: -500px;
+        margin-right: -70px;
+    }
     
 }
