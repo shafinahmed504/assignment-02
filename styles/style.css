@@ -100,6 +100,36 @@ li{
     margin-right: 11.875rem;
     background: linear-gradient(90deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.1) 100%);
 }
+.titles{
+    font-weight: 900;
+    font-size: 3rem;
+    color: white;
+}
+#habit-title-description{
+    text-align: center;
+    width: 670px;
+    margin: 0 auto;
+    
+}
+.i{
+    border-radius: 50%;
+
+}
+.t{
+    color: white;
+    font-weight: 600;
+    font-size: 1.125rem;
+    
+    
+}
+#four-round-photos{
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
 
 @media screen and (max-width:576px) {
     #Get-body-section{
@@ -132,5 +162,12 @@ li{
         margin-top: -500px;
         margin-right: -70px;
     }
-    
+    #four-round-photos{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+    #habit-title-description{
+        width: 500px;
+    }
 }
