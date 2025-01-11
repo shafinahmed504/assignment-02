@@ -10,7 +10,7 @@ body{
 }
 
 /* FONT STYLES */
-#nav-title{
+.nav-title{
     color: rgb(230, 83, 60);
     font-weight: 800;
     font-size: 2.25rem;
@@ -238,7 +238,36 @@ select{
     grid-template-columns: repeat(3,1fr);
     margin: 0 auto;
 }
+#first-part{
+    width: 350px;
+    margin-right: 40px;
+}
 
+
+.l{
+    color: white;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    
+}
+#footer-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+footer{
+    padding-left: 260px;
+    /* display: flex;
+    justify-content: center; */
+}
+#last-section{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
 
 
 
@@ -316,6 +345,19 @@ select{
     #our-team-section{
         margin-left: 25px;
     }
+    #footer-section{
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 10px;
+    }
+    footer{
+        padding-left: 10px;
+    }
+    #last-section{
+        width: 450px;
+        display: flex;
+        justify-content: center;
+    }
+   
     
     
 }
